@@ -4,7 +4,7 @@
   <title><![CDATA[Sure!]]></title>
   <link href="http://anthonybishopric.github.io/atom.xml" rel="self"/>
   <link href="http://anthonybishopric.github.io/"/>
-  <updated>2013-11-29T13:14:49-05:00</updated>
+  <updated>2013-11-29T13:30:18-05:00</updated>
   <id>http://anthonybishopric.github.io/</id>
   <author>
     <name><![CDATA[Anthony Bishopric]]></name>
@@ -18,7 +18,11 @@
     <link href="http://anthonybishopric.github.io/blog/2013/11/28/tracetrace-the-game/"/>
     <updated>2013-11-28T00:00:00-05:00</updated>
     <id>http://anthonybishopric.github.io/blog/2013/11/28/tracetrace-the-game</id>
-    <content type="html"><![CDATA[<p><a href="http://anthonybishopric.github.io/tracetrace">The title says it all</a></p>
+    <content type="html"><![CDATA[<p><a href="http://anthonybishopric.github.io/tracetrace">A game entirely about clicking the dot</a></p>
+
+<p>The game was my first exploration of <a href="http://processingjs.org/">ProcessingJS</a>. Processing, which is itself a Java-like language that wraps OpenGL, has been around for a long time; John Resig reimplemented Processing such that it can be interpreted by a Browser, making WebGL quite easy. When I get time I&rsquo;ll head back over to <a href="http://anthonybishopric.github.io/supermazewars">Super Maze Wars</a>, which seems like it&rsquo;d be very easy in Processing.</p>
+
+<p>Being a somewhat brain damaged Java programmer, I enjoyed being able to use class inheritance out of the box. That said, for future work I think I&rsquo;ll try <a href="http://paperjs.org/">PaperJS</a> instead, at least for 2d animations. Debugging in ProcessingJS is still a bit rough &ndash; I ran into a parse error in my Processing script that was not caught during interpretation, and instead crashed ProcessingJS altogether. As a result, I had to spend at least an hour digging through the ProcessingJS source to figure out what symbols it had crashed into when it encountered my error. That issue, along with generally unreliable stack traces made for slow going sometimes.</p>
 ]]></content>
   </entry>
   

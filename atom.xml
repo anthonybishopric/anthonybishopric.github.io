@@ -4,7 +4,7 @@
   <title><![CDATA[Sure!]]></title>
   <link href="http://anthonybishopric.github.io/atom.xml" rel="self"/>
   <link href="http://anthonybishopric.github.io/"/>
-  <updated>2013-11-29T13:39:54-05:00</updated>
+  <updated>2013-11-29T15:45:21-08:00</updated>
   <id>http://anthonybishopric.github.io/</id>
   <author>
     <name><![CDATA[Anthony Bishopric]]></name>
@@ -14,9 +14,9 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Tracetrace The Game]]></title>
+    <title type="html"><![CDATA[TraceTrace - The Game]]></title>
     <link href="http://anthonybishopric.github.io/blog/2013/11/28/tracetrace-the-game/"/>
-    <updated>2013-11-28T00:00:00-05:00</updated>
+    <updated>2013-11-28T00:00:00-08:00</updated>
     <id>http://anthonybishopric.github.io/blog/2013/11/28/tracetrace-the-game</id>
     <content type="html"><![CDATA[<p><a href="http://anthonybishopric.github.io/tracetrace">A game entirely about clicking the dot</a></p>
 
@@ -29,7 +29,7 @@
   <entry>
     <title type="html"><![CDATA[Programming In Total Darkness]]></title>
     <link href="http://anthonybishopric.github.io/blog/2013/05/10/programming-in-total-darkness/"/>
-    <updated>2013-05-10T00:00:00-04:00</updated>
+    <updated>2013-05-10T00:00:00-07:00</updated>
     <id>http://anthonybishopric.github.io/blog/2013/05/10/programming-in-total-darkness</id>
     <content type="html"><![CDATA[<p>I want to talk about the process of becoming a mostly self-taught developer. It&rsquo;s a process I think lots of us go through implicitly but it&rsquo;s not something we talk about in great detail.</p>
 
@@ -67,14 +67,14 @@
 
 Good software is good, bad software is bad!
 
-IMPORTANT: The reification of praxis may be parsed as the systemization of the image. Spring's aggressive appraisal of the relationship between the systemization of indeterminacy and the fragmentation of Struts' counter-functional ideology reorients the field toward a more theory-driven perspective." 
+IMPORTANT: The reification of praxis may be parsed as the systemization of the image. Spring's aggressive appraisal of the relationship between the systemization of indeterminacy and the fragmentation of Struts' counter-functional ideology reorients the field toward a more theory-driven perspective."
 </code></pre>
 
 <p>And with those last two sentences comes panting and swaying and a lack of confidence. Something very, very bad happened to me. A combination of insecurities, time pressure (&ldquo;is the site done yet?&rdquo;) and working 16 hour days turned me into an intellectual recluse. Why was everything so complicated? Why can&rsquo;t I read this documentation? These words make no sense to me.</p>
 
 <p>Of course <a href="http://static.springsource.org/spring/docs/2.0.x/reference/mvc.html">Spring&rsquo;s Documentation</a> wasn&rsquo;t made of fake academic sentences. It was, however, written with an ex-Struts user in mind, which I most certainly was not. Hibernate wasn&rsquo;t much better, and this is a real example from a Hibernate 2 doc page:</p>
 
-<pre><code>Let's start by adding a simple hello world example for our Book table. 
+<pre><code>Let's start by adding a simple hello world example for our Book table.
 
 &lt;?xml version='1.0' encoding='UTF-8'?&gt;
 &lt;!DOCTYPE hibernate-configuration PUBLIC

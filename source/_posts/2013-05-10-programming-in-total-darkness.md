@@ -50,7 +50,7 @@ Of course [Spring's Documentation](http://static.springsource.org/spring/docs/2.
 	    <session-factory>
 	        <!-- Example mapping file inclusion -->
 	        <mapping resource="org.example.Book.hbm.xml"/>
-	        …
+	        
 	    </session-factory>
 	</hibernate-configuration>
 

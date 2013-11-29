@@ -1,3 +1,8 @@
+---
+layout: post
+title: TraceTrace - The Game
+---
+
 [A game entirely about clicking the dot](/tracetrace)
 
 The game was my first exploration of [ProcessingJS](http://processingjs.org/). Processing, which is itself a Java-like language that wraps OpenGL, has been around for a long time; John Resig reimplemented Processing such that it can be interpreted by a Browser, making WebGL quite easy. When I get time I'll head back over to [Super Maze Wars](/supermazewars), which seems like it'd be very easy in Processing.

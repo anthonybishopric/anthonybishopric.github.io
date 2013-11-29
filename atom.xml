@@ -4,7 +4,7 @@
   <title><![CDATA[Sure!]]></title>
   <link href="http://anthonybishopric.github.io/atom.xml" rel="self"/>
   <link href="http://anthonybishopric.github.io/"/>
-  <updated>2013-11-29T12:41:57-05:00</updated>
+  <updated>2013-11-29T13:13:12-05:00</updated>
   <id>http://anthonybishopric.github.io/</id>
   <author>
     <name><![CDATA[Anthony Bishopric]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tracetrace The Game]]></title>
+    <link href="http://anthonybishopric.github.io/blog/2013/11/28/tracetrace-the-game/"/>
+    <updated>2013-11-28T00:00:00-05:00</updated>
+    <id>http://anthonybishopric.github.io/blog/2013/11/28/tracetrace-the-game</id>
+    <content type="html"><![CDATA[<h1>TraceTrace &ndash; A Game Where You Click The Dot</h1>
+
+<p><a href="http://anthonybishopric.github.io/tracetrace">The title says it all</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Programming In Total Darkness]]></title>

@@ -2,15 +2,11 @@
 layout: post
 title: Programming In The Dark
 ---
-I want to talk about the process of becoming a mostly self-taught developer. It's a process I think lots of us go through implicitly but it's not something we talk about in great detail.
-
-In a lot of ways, I don't think my experience is unique. But at the same time, there are aspects of my coming into professional software development that few I know share. You may judge for yourself, but I wanted to get it out in writing. Sometimes I can't see the subtleties of a problem until I write it out.
-
-I had a very steep learning curve to climb in my first startup that negatively affected the way I coded for years.
+I climbed a very steep learning curve in my first startup that negatively affected the way I coded for years.
 
 During my Chinese Literature class in the Spring semester of 2007, my phone rang - I let it go to voicemail. [Jeremy Welch](http://www.jeremyrwelch.com/) and I would talk later that night about starting a company called [Shoeboxed](http://shoeboxed.com). We had absurd, nonsensical goals for the product - a social network to share information about your purchases. I had not entertained the idea of being in a startup; at the time, I was a TA in a computer organization class and thought being in a startup might be a differentiator for me. After talking with my mom about the prospect of starting a company, I decided to go for it.
 
-The next part of this story is sort of similar to the startup war stories you hear all the time - we had 3 redbull powered all-nighters to hit our launch date, drama among founders, convincing skeptical friends, etcetera ad nauseum - but I really don't want to talk about it like that. I don't have any rose-tinted glasses for that time or for that experience. To some extent, this post is a cautionary tale about knowledge and how it can be gleaned over time. It is fundamentally about what it means to be a programmer with no experience trying to build a sophisticated web product.
+Fast-forward through 3 redbull powered all-nighters to hit our launch date, drama among founders, convincing skeptical friends, etcetera ad nauseum - but I really don't want to talk about it like that. I don't have any rose-tinted glasses for that time or for that experience. To some extent, this post is a cautionary tale about knowledge and how it can be gleaned over time. It is fundamentally about what it meant for me to be a programmer with no experience trying to build a sophisticated web product.
 
 I first learned about programming languages^ in my freshman year of college. I had a natural love for it but my knowledge was necessarily limited by my experience. With only 2 years of intro-CS exposure, I entered the startup fray with very little ammunition for success. The scope of the project seemed overwhelming, the way asking a 5 year old to pay the family taxes would be overwhelming. There were so many intermediate steps I hadn't taken and I didn't have time to go through them.
 

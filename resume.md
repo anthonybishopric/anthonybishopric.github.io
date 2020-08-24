@@ -1,7 +1,9 @@
-# Anthony Bishopric 
+---
+title: Anthony Bishopric 
+...
 
-[Github](github.com/anthonybishopric)
-[LinkedIn](linkedin.com/in/anthonybishopric)
+[Github](https://github.com/anthonybishopric)
+[LinkedIn](https://linkedin.com/in/anthonybishopric)
 
 ## Overview
 I am a versatile engineering lead, capable of working on a wide array of technical and human projects. I want to build a team that fundamentally improves the world we live in. 

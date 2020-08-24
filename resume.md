@@ -57,9 +57,4 @@ B.S. Computer Science
 
 ## Contact
 
-_(415) 509-7071_
-
-t@anthonybishopric.com
-
-3760 21st street
-San Francisco CA, 94114
+resume@anthonybishopric.com

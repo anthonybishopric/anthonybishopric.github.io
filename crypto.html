@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anthony's Highly Reliable Coin Depot</title>
+  <style>
+    body {
+      background-color: #000000;
+      color: #00FF00;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      text-align: center;
+    }
+    .container {
+      border: 5px dashed red;
+      padding: 20px;
+      margin: 20px;
+    }
+    h1 {
+      color: yellow;
+      font-size: 48px;
+    }
+    .marquee {
+      background: #ff00ff;
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+      font-size: 20px;
+    }
+    .blink {
+      animation: blink-animation 1s steps(2, start) infinite;
+      -webkit-animation: blink-animation 1s steps(2, start) infinite;
+    }
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+    .ticker {
+      background-color: navy;
+      color: #00ffff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <marquee class="marquee" behavior="alternate">🔥 WELCOME TO ANTHONY'S HIGHLY RELIABLE COIN DEPOT 🔥</marquee>
+
+  <div class="container">
+    <h1>💰💎 GET RICH NOW 💎💰</h1>
+    <img src="https://www.animatedimages.org/data/media/202/animated-gold-coin-image-0010.gif" alt="Coins" />
+    <p class="blink"><strong>🚨 GUARANTEED RETURNS* 🚨</strong></p>
+
+    <h2>🔐 Secure • Anonymous • Totally Legal</h2>
+
+    <form action="http://totallylegit-wallet.biz/send-your-crypto-here" method="POST">
+      <label for="wallet">Your Wallet Seed Phrase:</label><br>
+      <textarea id="wallet" name="wallet" rows="4" cols="50" placeholder="Enter here (for safekeeping)"></textarea><br><br>
+      <input type="submit" value="Upload and Get 300% Bonus 💸">
+    </form>
+
+    <h3>What Our Satisfied Customers Say:</h3>
+    <marquee direction="up" scrollamount="2" height="100px">
+      <p>🌟 "I sent all my crypto and Anthony doubled it!" — A. Madoff</p>
+      <p>🌟 "I bought 1 AnthonyCoin, now I own Brazil!" — V. Buterin</p>
+      <p>🌟 "My family won't talk to me anymore, but I'm rich!" — DogeFan1999</p>
+    </marquee>
+
+    <hr>
+
+    <h2>LIVE MARKET PRICES (REFRESH DAILY)</h2>
+    <div class="ticker">
+      AnthonyCoin: $99,999.99<br>
+      ScamCash: $420.69<br>
+      RugPullToken: 🚀 To the moon! 🚀<br>
+    </div>
+
+    <hr>
+
+    <footer>
+      <p>*Not guaranteed</p>
+      <p>&copy; 1998-2025 Anthony's Coin Depot Inc. | <a href="mailto:trust@reliable.biz">Email Support</a></p>
+      <p><blink>Trust us. We're on the internet.</blink></p>
+    </footer>
+  </div>
+
+</body>
+</html>

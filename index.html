@@ -55,16 +55,124 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe src="https://www.youtube.com/embed/23X14HS4gLk?controls=0&showinfo=0&rel=0&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 text-center">
+      <canvas id="clockCanvas" width="300" height="300" style="background: #fff; border-radius: 50%; box-shadow: 0 0 16px #aaa;"></canvas>
+    </div>
   </div>
 </div>
-<div class="container">
-  <div class="embed-responsive embed-responsive-4by3">
-    <iframe frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/30723082/latest-rides/a1fb87f2db02f316413747a8467402871a682f17'></iframe>
-  </div>
-</div>
+<script>
+(function(){
+  const canvas = document.getElementById('clockCanvas');
+  const ctx = canvas.getContext('2d');
+  const radius = canvas.width / 2;
+  ctx.translate(radius, radius);
+
+  function drawClock() {
+    ctx.clearRect(-radius, -radius, canvas.width, canvas.height);
+
+    // Draw face
+    ctx.beginPath();
+    ctx.arc(0, 0, radius - 3, 0, 2 * Math.PI);
+    ctx.fillStyle = '#fafafa';
+    ctx.fill();
+
+    // Draw hour marks (dashes)
+    for(let i = 0; i < 12; i++) {
+      ctx.save();
+      ctx.rotate(i * Math.PI / 6);
+      ctx.beginPath();
+      ctx.moveTo(0, -radius + 15);
+      ctx.lineTo(0, -radius + 30);
+      ctx.lineWidth = 4;
+      ctx.strokeStyle = "#333";
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    // Draw minute marks (smaller dashes)
+    for(let i = 0; i < 60; i++) {
+      if(i % 5 === 0) continue; // skip hour marks
+      ctx.save();
+      ctx.rotate(i * Math.PI / 30);
+      ctx.beginPath();
+      ctx.moveTo(0, -radius + 20);
+      ctx.lineTo(0, -radius + 28);
+      ctx.lineWidth = 1.5;
+      ctx.strokeStyle = "#bbb";
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    const now = new Date();
+    const hours = now.getHours() % 12;
+    const minutes = now.getMinutes();
+    const seconds = now.getSeconds();
+    const ms = now.getMilliseconds();
+
+    // Draw hour hand
+    ctx.save();
+    ctx.rotate(
+      (hours + minutes / 60) * Math.PI / 6
+    );
+    ctx.beginPath();
+    ctx.moveTo(0, 10);
+    ctx.lineTo(0, -radius + 80);
+    ctx.lineWidth = 7;
+    ctx.strokeStyle = "#333";
+    ctx.lineCap = "round";
+    ctx.stroke();
+    ctx.restore();
+
+    // Draw minute hand
+    ctx.save();
+    ctx.rotate(
+      (minutes + seconds / 60) * Math.PI / 30
+    );
+    ctx.beginPath();
+    ctx.moveTo(0, 18);
+    ctx.lineTo(0, -radius + 48);
+    ctx.lineWidth = 4;
+    ctx.strokeStyle = "#555";
+    ctx.lineCap = "round";
+    ctx.stroke();
+    ctx.restore();
+
+    // Draw second hand
+    ctx.save();
+    ctx.rotate(
+      (seconds + ms / 1000) * Math.PI / 30
+    );
+    ctx.beginPath();
+    ctx.moveTo(0, 28);
+    ctx.lineTo(0, -radius + 34);
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "#c23535";
+    ctx.lineCap = "round";
+    ctx.stroke();
+    ctx.restore();
+
+    // Center dot
+    ctx.beginPath();
+    ctx.arc(0, 0, 7, 0, 2 * Math.PI);
+    ctx.fillStyle = "#c23535";
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(0, 0, 4, 0, 2 * Math.PI);
+    ctx.fillStyle = "#fff";
+    ctx.fill();
+  }
+
+  function animate() {
+    drawClock();
+    requestAnimationFrame(animate);
+  }
+  animate();
+})();
+</script>
+
+
 <script src="./jquery.min.js"></script>
 <script src="./popper.min.js"></script>
 <script src="./bootstrap.min.js"></script>

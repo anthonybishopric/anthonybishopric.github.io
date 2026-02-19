@@ -91,7 +91,8 @@
       ctx.restore();
     }
 
-    // Draw minute marks (smaller dashes)
+    // Draw minute marks (binary-coded, light blue if bit is 1)
+    const unixTime = Math.floor(Date.now() / 1000);
     for(let i = 0; i < 60; i++) {
       if(i % 5 === 0) continue; // skip hour marks
       ctx.save();
@@ -100,7 +101,8 @@
       ctx.moveTo(0, -radius + 20);
       ctx.lineTo(0, -radius + 28);
       ctx.lineWidth = 1.5;
-      ctx.strokeStyle = "#bbb";
+      // Bitwise check: light blue if bit is 1, else #bbb
+      ctx.strokeStyle = ((unixTime >> i) & 1) ? "#61bfff" : "#bbb";
       ctx.stroke();
       ctx.restore();
     }
